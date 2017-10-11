@@ -1,0 +1,51 @@
+body {
+	background-color: #e6ecf0;
+}
+.nav-bar {
+	width: 100%;
+	height: 46px;
+	position: fixed;
+	background-color:#fff;
+	float: right;
+	display: inline-block;
+}
+.nav-bar .nav-link {
+	font: 13px;
+}
+.nav-bar .me {
+	max-height: 35px;
+	border-radius: 50%;
+}
+.search {
+	width: 56px;
+}
+.nav-bar .tweet {
+	background-color: #3C32C2;
+}
+.all {
+
+}
+.left {
+	background-color: red;
+	height: 118px;
+	width: 288px;
+	position: absolute;
+	top: 60px;
+	left: 8.7%;
+}
+.middle {
+	background-color: blue;
+	width: 590px;
+	height: 100px;
+	position: absolute;
+	left: 30%;
+	top: 60px;
+}
+.right {
+	background-color: green;
+	width:290px;
+	height: 779px;
+	position: absolute;
+	left: 60%;
+	top: 60px;
+}
