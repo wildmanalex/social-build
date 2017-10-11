@@ -6,15 +6,38 @@ body {
 	height: 46px;
 	position: fixed;
 	background-color:#fff;
-	float: right;
 	display: inline-block;
+	line-height: 46px;
+}
+.rel {
+	vertical-align: middle;
+}
+.nav-bar .links {
+	position: absolute;
+	left: 10%;
+	font-family: helvetica;
 }
 .nav-bar .nav-link {
 	font: 13px;
+	margin: 5px;
+}
+.nav-bar .t-icon {
+	position: absolute;
+	left: 55%;
+}
+.nav-bar .search {
+	position: absolute;
+	left:60%;
 }
 .nav-bar .me {
+	position: absolute;
 	max-height: 35px;
 	border-radius: 50%;
+	left: 50%
+}
+.nav-bar .t-button {
+	position: absolute;
+	left: 70%
 }
 .search {
 	width: 56px;
