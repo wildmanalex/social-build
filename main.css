@@ -23,27 +23,41 @@ body {
 }
 .nav-bar .t-icon {
 	position: absolute;
-	left: 55%;
+	left: 50%;
 }
 .nav-bar .search {
 	position: absolute;
-	left:60%;
+	left:67%;
+	width: 220px;
+	height: 38px;
+}
+.s-field {
+	width: 220px;
+	height: 31px;
+	font-size: 12px;
+	border-radius: 30px;
 }
 .nav-bar .me {
 	position: absolute;
 	max-height: 35px;
+	left: 83.5%;
+	top:7px;	
+}
+.nav-bar .me img {
 	border-radius: 50%;
-	left: 50%
+	height: 32px;
+	width: 32px;
 }
 .nav-bar .t-button {
 	position: absolute;
-	left: 70%
-}
-.search {
-	width: 56px;
+	left: 86.8%;
 }
 .nav-bar .tweet {
 	background-color: #3C32C2;
+	font-size: 14px;
+	border-radius: 30px;
+	color: white;
+	padding:7px 17px;
 }
 .all {
 
