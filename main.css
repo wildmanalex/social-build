@@ -18,6 +18,10 @@ body {
 	position: absolute;
 	left: 10%;
 	font-family: helvetica;
+	color: grey;
+}
+.nav-bar .links a{
+	color: grey;
 }
 .nav-bar .nav-link {
 	font: 13px;
