@@ -59,23 +59,37 @@ body {
 	color: white;
 	padding:7px 17px;
 }
-.all {
-
-}
 .left {
 	background-color: red;
-	height: 118px;
-	width: 288px;
 	position: absolute;
 	top: 60px;
 	left: 8.7%;
 }
+.profile-card {
+	background-color: white;
+	width: 290px;
+	height: 214px;
+}
+.top-half {
+	background-color: #C4D9F7;
+	height: 95px;
+	width: 100%;
+}
+.profile-pic img{
+	height: 75px;
+	width: 75px;
+	border-radius: 50%;
+	float: left;
+	position: absolute;
+	top: 61px;
+	left: 9px;
+}
 .middle {
 	background-color: blue;
 	width: 590px;
-	height: 100px;
+	height: 100%;
 	position: absolute;
-	left: 30%;
+	left: 29.6%;
 	top: 60px;
 }
 .right {
@@ -83,6 +97,6 @@ body {
 	width:290px;
 	height: 779px;
 	position: absolute;
-	left: 60%;
+	left: 71.54%;
 	top: 60px;
 }
